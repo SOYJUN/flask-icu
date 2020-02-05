@@ -452,7 +452,7 @@ def format(string, values=None):
     ctx = _request_ctx_stack.top
     locale = get_locale()
     icu_msg = get_message(string)
-    msg = MessageFormat(icu_msg)
+    msg = MessageFormat(icu_msg, locale)
     if values is not None:
         keys = []
         vals = []
