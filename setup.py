@@ -16,7 +16,6 @@ Links
 """
 from setuptools import setup
 
-
 setup(
     name='Flask-ICU',
     version='0.9.1',
@@ -33,6 +32,7 @@ setup(
         'Flask',
         'pyicu',
         'speaklater>=1.2',
+        'werkzeug==0.16.1'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',  # TODO: update dev status
