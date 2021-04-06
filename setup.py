@@ -32,7 +32,7 @@ setup(
         'Flask',
         'pyicu',
         'speaklater>=1.2',
-        'werkzeug==0.16.1'
+        'werkzeug==1.0.1'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',  # TODO: update dev status
